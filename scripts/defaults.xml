@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Saved on Fri Jun 23 09:36:12 BRT 2023</comment>
+<entry key="database.api.enabled">true</entry>
+<entry key="db.connectionType">basic</entry>
+<entry key="db.hostname">localhost</entry>
+<entry key="db.port">1521</entry>
+<entry key="db.servicename">XEPDB1</entry>
+<entry key="feature.sdw">true</entry>
+<entry key="restEnabledSql.active">true</entry>
+<entry key="security.requestValidationFunction">wwv_flow_epg_include_modules.authorize</entry>
+<entry key="security.validationFunctionType">plsql</entry>
+</properties>

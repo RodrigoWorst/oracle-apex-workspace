@@ -1,0 +1,5 @@
+apache-tomcat-9.0.76.tar.gz
+jdk-11.0.18_linux-x64_bin.tar.gz
+oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+apex_21.2.zip
+ords-21.4.2.062.1806.zip
