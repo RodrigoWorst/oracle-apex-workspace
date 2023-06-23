@@ -39,7 +39,7 @@ echo "--------------------------------------------------"
 echo "Clean............................................."
 echo "Removing temp files"
 rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/* /files
-rm -rf /opt/oracle/ords/ords.war
+rm -rf /opt/oracle/apex /opt/oracle/ords/ords.war
 echo "apt-get clean"
 apt-get clean
 echo "--------------------------------------------------"
