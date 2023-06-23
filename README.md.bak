@@ -58,26 +58,17 @@ Oracle Express Edition 21c Release on Ubuntu 14.04.1 LTS with APEX 21.2 and ORDS
 
 ##### Connect to Oracle Application Express web management console via ORDS with following settings:
 
-    1.On the linux client, enter the apex installation directory:
-		
-		cd opt/oracle/apex
-	
-	2.Open a database connection using SQLPLUS:
-		
-		sqlplus sys as sysdba
-		password: <custom-password> / Passw0rds
-	
-	3.Run:
-		
-		ALTER SESSION SET CONTAINER=XEPDB1;
-	
-	4.Run the script. Enter the username (default ADMIN), Email(optional) and Password(format: Password123!)
-	
-		@apxchpwd.sql
-	
-	5. Open the browser and login:
-	
-		http://localhost:8080/ords/apex
-		workspace: INTERNAL
-		user: <Username> / ADMIN
-		password: <custom-password>
+    ###### 1.On the linux client, enter the apex installation directory:
+	cd opt/oracle/apex
+	###### 2.Open a database connection using SQLPLUS:
+    sqlplus sys as sysdba
+	password: <custom-password> / Passw0rds
+	###### 3.Run:
+	ALTER SESSION SET CONTAINER=XEPDB1;
+	###### 4.Run the script. Enter the username (default ADMIN), Email(optional) and Password(format: Password123!)
+	@apxchpwd.sql
+	###### 5. Open the browser and login:
+	http://localhost:8080/ords/apex
+    workspace: INTERNAL
+    user: <Username> / ADMIN
+    password: <custom-password>
