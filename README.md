@@ -29,7 +29,7 @@ Oracle Express Edition 21c Release on Ubuntu 14.04.1 LTS with APEX 21.2 and ORDS
 
     docker run -d --name <own-container-name> -p 49160:22 -p 8080:8080 -p 1521:1521 rodrigoworst/oracle-apex-workspace
 
-#### Password for SYS & SYSTEM & Tomcat ADMIN & APEX ADMIN:
+#### Password for SYS & SYSTEM & Tomcat ADMIN:
 
         Passw0rds
 
@@ -75,7 +75,7 @@ Oracle Express Edition 21c Release on Ubuntu 14.04.1 LTS with APEX 21.2 and ORDS
 	
 		@apxchpwd.sql
 	
-	5. Open the browser and login:
+	5.Open the browser and login:
 	
 		http://localhost:8080/ords/apex
 		workspace: INTERNAL
